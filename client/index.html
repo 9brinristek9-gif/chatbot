@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WARAS - Konsultasi Psikologi Online & Asisten Kesehatan Mental</title>
+  <meta name="description" content="WARAS adalah platform konsultasi psikologi online modern. Temukan ketenangan, redakan kecemasan, dan tingkatkan kesehatan mental Anda bersama asisten AI & psikolog profesional kami." />
+  
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Floating Glowing Blobs for Background Aesthetics -->
+  <div class="glow-blob blob-1"></div>
+  <div class="glow-blob blob-2"></div>
+
+  <!-- Header Navigation -->
+  <header class="header">
+    <div class="nav-container">
+      <a href="#" class="logo" id="nav-logo">
+        <span class="logo-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+            <path d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z" />
+          </svg>
+        </span>
+        WARAS
+      </a>
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#fitur" class="nav-link">Layanan</a>
+        <a href="#tentang" class="nav-link">Tentang Kami</a>
+        <a href="#tips" class="nav-link">Tips Mental</a>
+        <a href="#testimoni" class="nav-link">Testimoni</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="btn btn-primary" id="btn-start-consultation">Mulai Curhat</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <span class="badge">#1 Platform Kesehatan Mental Indonesia</span>
+          <h1 class="hero-title">Pikiran Sehat,<br><span class="text-gradient">Hidup Lebih Bahagia.</span></h1>
+          <p class="hero-desc">
+            WARAS hadir sebagai ruang aman Anda untuk bercerita, melepaskan penat, dan berkonsultasi mengenai kesehatan mental. Rasakan ketenangan batin secara instan kapan saja dan di mana saja.
+          </p>
+          <div class="hero-buttons">
+            <button class="btn btn-primary btn-lg" id="hero-btn-primary">
+              Coba Chat AI Sekarang
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" width="18" height="18">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+              </svg>
+            </button>
+            <a href="#fitur" class="btn btn-secondary btn-lg">Pelajari Layanan</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-num">24/7</span>
+              <span class="stat-label">Dukungan Konseling</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-num">98%</span>
+              <span class="stat-label">Pengguna Merasa Tenang</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-num">100%</span>
+              <span class="stat-label">Rahasia Terjamin</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Hero Interactive Graphic - Professional Psychiatrist Photo -->
+        <div class="hero-graphic-container">
+          <div class="hero-photo-frame">
+            <div class="photo-card-badge badge-top-left">
+              <span class="badge-icon">🩺</span>
+              <div class="badge-text">
+                <strong>Psikolog Klinis</strong>
+                <span>Terpercaya & Profesional</span>
+              </div>
+            </div>
+            <div class="hero-image-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=600&q=85&auto=format&fit=crop"
+                alt="Psikolog profesional WARAS - Konsultasi psikologi"
+                class="hero-psychiatrist-img"
+                loading="eager"
+              />
+              <div class="image-overlay-glow"></div>
+            </div>
+            <div class="photo-card-badge badge-bottom-right">
+              <span class="badge-icon">🤝</span>
+              <div class="badge-text">
+                <strong>Sesi Aman & Nyaman</strong>
+                <span>Privasi 100% Terjaga</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services / Features Section -->
+    <section class="features-section" id="fitur">
+      <div class="section-header">
+        <span class="badge">Layanan Terbaik Kami</span>
+        <h2 class="section-title">Solusi Kesehatan Mental yang Tepat untuk Anda</h2>
+        <p class="section-subtitle">Pilih metode kenyamanan Anda dalam melepaskan semua beban pikiran.</p>
+      </div>
+      <div class="features-grid">
+        <!-- Feature 1 -->
+        <div class="feature-card">
+          <div class="feature-icon bg-teal">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="24" height="24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
+            </svg>
+          </div>
+          <h3 class="feature-title">Asisten AI Curhat 24/7</h3>
+          <p class="feature-desc">Butuh didengarkan jam 2 pagi? AI WARAS selalu online untuk menemani curhat Anda tanpa menghakimi dan menjaga kerahasiaan penuh.</p>
+        </div>
+        <!-- Feature 2 -->
+        <div class="feature-card">
+          <div class="feature-icon bg-indigo">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="24" height="24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+            </svg>
+          </div>
+          <h3 class="feature-title">Konseling dengan Psikolog</h3>
+          <p class="feature-desc">Hubungkan masalah mendalam Anda langsung dengan psikolog klinis profesional berlisensi kami melalui sesi tatap muka online.</p>
+        </div>
+        <!-- Feature 3 -->
+        <div class="feature-card">
+          <div class="feature-icon bg-amber">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="24" height="24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h3 class="feature-title">Privasi & Keamanan 100%</h3>
+          <p class="feature-desc">Kami memahami privasi adalah segalanya. Sesi Anda dilindungi enkripsi kelas militer dan opsi anonimitas penuh.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive About Section -->
+    <section class="about-section" id="tentang">
+      <div class="about-container">
+        <div class="about-graphic">
+          <div class="about-photo-card">
+            <img
+              src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&q=85&auto=format&fit=crop"
+              alt="Suasana konsultasi psikologi profesional WARAS"
+              class="about-photo-img"
+              loading="lazy"
+            />
+            <div class="about-photo-overlay">
+              <div class="about-photo-quote">
+                <p>"Kesehatan mental bukan tujuan akhir, melainkan perjalanan yang terus berjalan."</p>
+                <span>— WARAS team</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-content">
+          <span class="badge">Tentang Kami</span>
+          <h2 class="about-title">Kami Percaya Setiap Pikiran Berhak untuk Bahagia</h2>
+          <p class="about-desc">
+            WARAS didirikan oleh kolaborasi psikolog klinis dan ilmuwan teknologi yang berkomitmen menghadirkan solusi kesehatan mental yang terjangkau, responsif, dan tanpa hambatan birokrasi.
+          </p>
+          <p class="about-desc">
+            Dengan memanfaatkan kecerdasan buatan Gemini AI yang dilatih dengan dasar-dasar pertolongan pertama psikologis (Psychological First Aid), kami menghadirkan asisten curhat instan yang siap meredakan kecemasan Anda kapan saja.
+          </p>
+          <ul class="about-list">
+            <li>
+              <span class="list-icon">✓</span>
+              <span>Mudah diakses tanpa perlu install aplikasi berat.</span>
+            </li>
+            <li>
+              <span class="list-icon">✓</span>
+              <span>Dukungan emosional berbasis teori kognitif (CBT).</span>
+            </li>
+            <li>
+              <span class="list-icon">✓</span>
+              <span>Sistem rujukan psikolog klinis jika dibutuhkan tindakan lanjut.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tips Section -->
+    <section class="tips-section" id="tips">
+      <div class="section-header">
+        <span class="badge">Tips & Edukasi</span>
+        <h2 class="section-title">Eksplorasi Tips Kesehatan Mental Terkini</h2>
+        <p class="section-subtitle">Baca panduan praktis dan artikel menarik untuk meningkatkan kesejahteraan emosional Anda.</p>
+      </div>
+      <div class="tips-grid">
+        <!-- Tips 1 -->
+        <article class="tips-card">
+          <div class="tips-image">
+            <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=600&q=80&auto=format&fit=crop" alt="Meditasi dan pernapasan untuk kesehatan mental" loading="lazy" />
+          </div>
+          <div class="tips-body">
+            <span class="tips-category">Meditasi</span>
+            <h3 class="tips-title">5 Teknik Pernapasan Sederhana Redakan Panik</h3>
+            <p class="tips-summary">Saat cemas melanda, sistem saraf Anda berada dalam mode 'fight-or-flight'. Temukan cara menenangkannya dalam 3 menit.</p>
+            <a href="#" class="tips-link">Baca Selengkapnya →</a>
+          </div>
+        </article>
+        <!-- Tips 2 -->
+        <article class="tips-card">
+          <div class="tips-image">
+            <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&q=80&auto=format&fit=crop" alt="Burnout dan kelelahan kerja" loading="lazy" />
+          </div>
+          <div class="tips-body">
+            <span class="tips-category">Gaya Hidup</span>
+            <h3 class="tips-title">Mengenali Gejala Burnout dan Cara Mengatasinya</h3>
+            <p class="tips-summary">Apakah Anda hanya lelah biasa atau mengalami kejenuhan kerja yang ekstrem? Pelajari tanda-tanda awalnya di sini.</p>
+            <a href="#" class="tips-link">Baca Selengkapnya →</a>
+          </div>
+        </article>
+        <!-- Tips 3 -->
+        <article class="tips-card">
+          <div class="tips-image">
+            <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&q=80&auto=format&fit=crop" alt="Hubungan sehat dengan orang tersayang" loading="lazy" />
+          </div>
+          <div class="tips-body">
+            <span class="tips-category">Hubungan</span>
+            <h3 class="tips-title">Membangun Batasan Diri (Boundaries) yang Sehat</h3>
+            <p class="tips-summary">Mengatakan "tidak" terkadang sulit dilakukan, namun itu adalah langkah terbesar untuk melindungi kedamaian batin Anda.</p>
+            <a href="#" class="tips-link">Baca Selengkapnya →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" id="testimoni">
+      <div class="section-header">
+        <span class="badge">Testimoni Pengguna</span>
+        <h2 class="section-title">Mereka yang Menemukan Kedamaian Kembali</h2>
+        <p class="section-subtitle">Kisah nyata dari mereka yang menggunakan layanan konsultasi WARAS.</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">
+            "Fitur chat AI-nya luar biasa membantu saat cemas tiba-tiba datang malam hari. Penjelasannya ramah, rasanya seperti didengar oleh teman yang mengerti perasaan saya."
+          </p>
+          <div class="user-info">
+            <div class="user-avatar bg-pink">R</div>
+            <div class="user-details">
+              <h4 class="user-name">Rian D.</h4>
+              <span class="user-role">Mahasiswa, Jakarta</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">
+            "Sebagai pekerja kantoran yang sering burnout, konsultasi online dengan psikolog WARAS sangat praktis. Jadwal fleksibel dan kualitas psikolognya sangat profesional."
+          </p>
+          <div class="user-info">
+            <div class="user-avatar bg-blue">S</div>
+            <div class="user-details">
+              <h4 class="user-name">Saras W.</h4>
+              <span class="user-role">Software Engineer, Bandung</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="cta-container">
+        <h2 class="cta-title">Siap untuk Memulai Langkah Pertama Anda?</h2>
+        <p class="cta-desc">Jangan menanggung beban pikiran sendirian. Kami ada di sini untuk membantu Anda kembali tersenyum.</p>
+        <button class="btn btn-light btn-lg" id="cta-btn-start">Konsultasi Sekarang</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="logo">
+          <span class="logo-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+              <path d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z" />
+            </svg>
+          </span>
+          WARAS
+        </div>
+        <p class="footer-tagline">Tempat aman untuk pikiran dan jiwa yang sehat.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Platform</h4>
+          <a href="#fitur">Layanan</a>
+          <a href="#tentang">Tentang Kami</a>
+          <a href="#tips">Tips & Artikel</a>
+        </div>
+        <div class="footer-col">
+          <h4>Dukungan</h4>
+          <a href="#">Hubungi Kami</a>
+          <a href="#">FAQ</a>
+          <a href="#">Ketentuan Privasi</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 WARAS. Dilindungi Undang-Undang. Layanan ini bersifat pendukung emosional awal dan tidak menggantikan perawatan medis darurat.</p>
+    </div>
+  </footer>
+
+  <!-- FLOATING CHAT BUBBLE & WINDOW -->
+  <div class="chat-widget-container">
+    <!-- Chat Toggle Button (FAB) -->
+    <button class="chat-bubble-fab" id="chat-bubble-toggle" aria-label="Buka Chat Asisten Mental WARAS">
+      <div class="fab-pulse"></div>
+      <svg class="icon-chat-open" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" width="28" height="28">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
+      </svg>
+      <svg class="icon-chat-close hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" width="28" height="28">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+      <span class="chat-badge" id="chat-notification-badge">1</span>
+    </button>
+
+    <!-- Chat Window Dialog -->
+    <div class="chat-window-dialog hidden" id="chat-window">
+      <!-- Chat Header -->
+      <div class="chat-window-header">
+        <div class="counselor-avatar-group">
+          <div class="counselor-avatar">🌱</div>
+          <div class="counselor-status-dot"></div>
+        </div>
+        <div class="counselor-info">
+          <h3>Asisten AI WARAS</h3>
+          <span class="status-text">Online & Siap Mendengar</span>
+        </div>
+        <button class="chat-close-btn" id="chat-close-btn" aria-label="Tutup Chat">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" width="20" height="20">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Chat Body / Messages -->
+      <div class="chat-window-body" id="chat-messages-container">
+        <div class="chat-date-separator">Hari Ini</div>
+        
+        <!-- Welcome Message -->
+        <div class="chat-msg msg-received">
+          <div class="msg-bubble">
+            Halo! Saya Asisten Mental AI dari WARAS. 💚
+            <br><br>
+            Bagaimana kabar Anda hari ini? Jika ada hal yang mengganjal di pikiran, merasa lelah, cemas, atau hanya ingin didengarkan, silakan ceritakan di sini. Saya ada di sini untuk mendampingi Anda tanpa menghakimi.
+          </div>
+          <div class="msg-meta">Baru Saja</div>
+        </div>
+        
+        <!-- Typing indicator placeholder -->
+        <div class="chat-msg msg-received hidden" id="chat-typing-indicator">
+          <div class="msg-bubble typing-bubble">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chat Input Area -->
+      <form class="chat-window-footer" id="chat-widget-form">
+        <input type="text" id="chat-widget-input" placeholder="Tulis cerita Anda di sini..." autocomplete="off" required />
+        <button type="submit" class="chat-send-btn" id="chat-widget-send" aria-label="Kirim Pesan">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" width="18" height="18">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
